@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    .main-nav {
+        position: absolute;
+        top: 0px;
+        a { 
+            color: white;
+            padding-left: 20px;
+            padding-top: 10px;
+            font-size: 1.5em;
+        }
+    }
+
+    .switch {
+        position: absolute;
+        top: 0px;
+        display: inline-block;
+        margin-left: 50%;
+        font-size: 2em;
+        color: white;
+    }
+    
+    .search-btn {
+        position: absolute;
+        top: 0px;
+        right: 30px;
+    }
+
+    .glyphicon.glyphicon-search {
+        right: 30px;
+    }
+
+    .main-title {
+        color: white;
+        top: 40%;
+        left: 25%;
+        position: absolute;
+        font-size: 5em;
+        font-weight: bold;
+    }
+
+    img {
+        position: absolute;
+        top: -120px;
+    }
+
+    .head-btn {
+        background-color: #54d154;
+        position: relative;
+        margin-top: 25em;
+        left: 46%;
+        width: 200px;
+        height: 50px;
+        border: transparent;
+        border-radius: 25px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.4em;
+    }
+}
